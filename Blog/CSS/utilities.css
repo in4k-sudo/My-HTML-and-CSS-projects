@@ -1,0 +1,64 @@
+/*Utilities*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:helvetica , sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.container{
+    margin:auto;
+    width: 87%;
+    height:100%;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+h1, h2{
+    padding:20px 0px;
+}
+.part{
+    margin:15px 0px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+button:hover{
+    cursor:pointer;
+}
+.content{
+    display:grid;
+}
+main a:hover{
+    color:hsl(43, 74%, 49%);
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+    color:hsl(43, 74%, 49%);
+}
+i:hover{
+    color:hsl(43, 74%, 49%)
+}
+.sure-code{
+    font-family: 'Dancing Script';
+    font-size: 28px;
+    padding:0px 6px;
+}
+input {
+    border-radius: 5px;
+}
+b{
+    font-size: 17px;
+}
+span{
+    display:inline-block;
+}
